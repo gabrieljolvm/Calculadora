@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="https://kit.fontawesome.com/b794b89d66.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <button id="historic"><i class="fa-solid fa-clock-rotate-left"></i></button>
+        <section id="view-area">
+            <div id="current-operation"></div>
+            <div id="previus-operation-area">
+                <div id="op-number"></div>
+                <div id="op-type"></div>
+                <div id="result"></div>
+            </div>
+        </section>
+        <section id="buttons-area">
+            <div class="row">
+                <button class="buttons operation-del" id="Backspace">Backspace</button>
+                <button class="buttons operation-del" id="Delete">C</button>
+                <button class="buttons operation-del" id="Escape">CE</button>
+                <button class="buttons operation">%</button>
+            </div>
+            <div class="row">
+                <button class="buttons operation" id="R">1/x</button>
+                <button class="buttons operation" id="²">x²</button>
+                <button class="buttons operation" id="@">√x</button>
+                <button class="buttons simple-operation" id="/">÷</button>
+            </div>
+            <div class="row">
+                <button class="buttons simple-operation" id="*">×</button>
+                <button class="buttons number">9</button>
+                <button class="buttons number">8</button>
+                <button class="buttons number">7</button>
+            </div>
+            <div class="row">
+                <button class="buttons simple-operation">-</button>
+                <button class="buttons number">6</button>
+                <button class="buttons number">5</button>
+                <button class="buttons number">4</button>
+            </div>
+            <div class="row">
+                <button class="buttons simple-operation">+</button>
+                <button class="buttons number">3</button>
+                <button class="buttons number">2</button>
+                <button class="buttons number">1</button>
+            </div>
+            <div class="row">
+                <button class="buttons" id="equal">=</button>
+                <button class="buttons number">.</button>
+                <button class="buttons number">0</button>
+                <button class="buttons operation" id="F9">+/-</button>
+            </div>
+        </section>
+    </main>
+    <script src="script2.js"></script>
+    
+</body>
+
+</html>
